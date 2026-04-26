@@ -1,0 +1,6 @@
+---
+- name: Windows Test Playbook
+  hosts: all
+  tasks:
+    - name: Ping test
+      win_ping:
